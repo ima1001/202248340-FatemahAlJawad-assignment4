@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fatemah's Portfolio</title>
+    <link rel="icon" type="image/png" href="src/assets/images/logoC.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    <header>
+        <nav class="navbar navbar-expand-lg" id="main-nav">
+            <div class="container">
+                <a href="#"><image class="rounded" href="#" src="src/assets/images/logoC.png" style="height: 32px;"></image></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                        <li class="nav-item"> <a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                    <button id="theme-toggle" aria-label="Toggle dark mode">☀️</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="panel name">
+
+        <div class="name-content">
+            <p>Computer Science . KFUPM</p>
+            <h1>Fatemah Al Jawad</h1>
+            <p>Open to internship</p>
+        </div>
+
+        <div id="graduation-countdown" style="position: relative; z-index: 2; margin-top: 20px;">
+            <p class="countdown-eyebrow">
+                🎓 Graduation Countdown
+            </p>
+            <div style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
+                <div class="countdown-unit">
+                    <span class="countdown-num" id="cd-days">--</span>
+                    <span class="countdown-label">Days</span>
+                </div>
+                <div class="countdown-unit">
+                    <span class="countdown-num" id="cd-hours">--</span>
+                    <span class="countdown-label">Hours</span>
+                </div>
+                <div class="countdown-unit">
+                    <span class="countdown-num" id="cd-minutes">--</span>
+                    <span class="countdown-label">Min</span>
+                </div>
+                <div class="countdown-unit">
+                    <span class="countdown-num" id="cd-seconds">--</span>
+                    <span class="countdown-label">Sec</span>
+                </div>
+            </div>
+        </div>
+
+        <div style="position: relative; z-index: 2; margin-top: 24px;">
+            <a href="#projects" class="btn btn-light" style="border-radius:999px; font-size:13px; padding: 8px 22px;">View Projects</a>
+            <a href="#contact" class="btn btn-outline-light" style="border-radius:999px; font-size:13px; padding: 8px 22px; margin-left: 8px;">Contact Me</a>
+        </div>
+        
+        <div id="scroll-nav">
+            <p>&#8595; scroll</p>
+        </div>
+
+    </section>
+
+
+    <section class="panel light" id="about">
+        <div class="content">
+            <p class="section-eyebrow">Introduction</p>
+            <h2 class="section-heading">About</h2>
+            <p>
+                Ambitious Computer Science student with hands-on experience in
+                software development, digital design, and networks,
+                seeking an internship opportunity to contribute
+                technical expertise and problem-solving skills.
+            </p>
+        </div>
+    </section>
+
+
+    <section class="panel dark" id="education">
+        <div class="content">
+            <p class="section-eyebrow">Background</p>
+            <h2 class="section-heading">Education</h2>
+
+            <div class="timeline">
+
+                <div class="timeline-item">
+                    <div class="timeline-dot active"></div>
+                    <div class="timeline-card">
+                        <div class="school-row">
+                            <a href="https://www.kfupm.edu.sa" target="_blank" rel="noopener">
+                                <img src="src/assets/images/kfupm.png" class="school-logo" alt="KFUPM">
+                            </a>
+                        <div>
+                                <div class="school-name">KFUPM</div>
+                                <div class="school-deg">B.S. of Science in Computer Science</div>
+                            </div>
+                            <span class="badge-current">Current</span>
+                        </div>
+                        <div class="school-meta">
+                            <div class="meta-item">Period <span>Sep 2022 – Jun 2027</span></div>
+                            <div class="meta-item">GPA <span>3.639 / 4.00</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card">
+                        <div class="school-row">
+                            <a href="https://www.gatech.edu" target="_blank" rel="noopener">
+                                <img src="src/assets/images/gt.png" class="school-logo" alt="Georgia Tech">
+                            </a> 
+                            <div>
+                                <div class="school-name">Georgia Institute of Technology</div>
+                                <div class="school-deg">Exchange Program · Computer Science</div>
+                            </div>
+                            <span class="badge-exchange">Exchange</span>
+                        </div>
+                        <div class="school-meta">
+                            <div class="meta-item">Period <span>Sep  2025 – Dec 2025</span></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="panel light" id="projects">
+        <div class="content">
+            <p class="section-eyebrow">Portfolio</p>
+            <h2 class="section-heading">Projects</h2>
+
+            <div class="filter-bar">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="java">Java</button>
+                <button class="filter-btn" data-filter="database">Database</button>
+                <button class="filter-btn" data-filter="hardware">Hardware</button>
+                <button class="filter-btn" data-filter="ai">AI</button>
+                <button class="filter-btn" data-filter="web">Web Development</button>
+
+            </div>
+
+            <div class="projects-grid">
+
+                <div class="card project-card" data-category="java">
+                    <img src="src/assets/images/facelite_dark.png" class="card-img-top" alt="Facelite">
+                    <div class="card-content">
+                        <h6 class="card-name">Facelite</h6>
+                        <p class="card-desc">Social media platform built with Java and JavaFX featuring user profiles and interactions.</p>
+                        <div class="badge-group">
+                            <span class="skill-badge cat-java">Java</span>
+                            <span class="skill-badge cat-java">JavaFX</span>
+                            <span class="skill-badge cat-java">OOP</span>
+                            <span class="skill-badge cat-java">GUI</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card project-card" data-category="java">
+                    <img src="src/assets/images/imgcompress.png" class="card-img-top" alt="Quadtree Compression">
+                    <div class="card-content">
+                        <h6 class="card-name">Quadtree Image Compression</h6>
+                        <p class="card-desc">Efficiently compresses images using quadtree data structure implemented in Java.</p>
+                        <div class="badge-group">
+                            <span class="skill-badge cat-java">Java</span>
+                            <span class="skill-badge cat-java">Algorithms</span>
+                            <span class="skill-badge cat-java">Data Structures</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card project-card" data-category="database">
+                    <img src="src/assets/images/hospital_db.png" class="card-img-top" alt="Hospital System EERD">
+                    <div class="card-content">
+                        <h6 class="card-name">Hospital Database System</h6>
+                        <p class="card-desc">SQL system for managing hospital operations, patient records and staff data.</p>
+                        <div class="badge-group">
+                            <span class="skill-badge cat-database">SQL</span>
+                            <span class="skill-badge cat-database">Database Design</span>
+                            <span class="skill-badge cat-database">ER Modeling</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card project-card" data-category="hardware">
+                    <img src="src/assets/images/cpu.png" class="card-img-top" alt="Pipelined CPU Design">
+                    <div class="card-content">
+                        <h6 class="card-name">Pipelined CPU</h6>
+                        <p class="card-desc">CPU with data forwarding mechanisms and hazard detection built in LogiSim.</p>
+                        <div class="badge-group">
+                            <span class="skill-badge cat-hardware">LogiSim</span>
+                            <span class="skill-badge cat-hardware">Circuit Design</span>
+                            <span class="skill-badge cat-hardware">Computer Architecture</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card project-card" data-category="hardware">
+                    <div class="card-img-placeholder">🅿</div>
+                    <div class="card-content">
+                        <h6 class="card-name">Smart Parking System</h6>
+                        <p class="card-desc">Verilog-based parking system deployed on FPGA with real-time availability tracking.</p>
+                        <div class="badge-group">
+                            <span class="skill-badge cat-hardware">Verilog</span>
+                            <span class="skill-badge cat-hardware">FPGA</span>
+                            <span class="skill-badge cat-hardware">Logic Design</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card project-card" data-category="ai">
+                    <img src="src/assets/images/handwriting.png" class="card-img-top" alt="Alphabet Recognition MLP ">
+                    <div class="card-content">
+                        <h6 class="card-name">Alphabet Recognition</h6>
+                        <p class="card-desc">ML model recognizing handwritten alphabets with 97% accuracy using KNN, SVM, MLP.</p>
+                        <div class="badge-group">
+                            <span class="skill-badge cat-ai">Python</span>
+                            <span class="skill-badge cat-ai">AI</span>
+                            <span class="skill-badge cat-ai">KNN</span>
+                            <span class="skill-badge cat-ai">SVM</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card project-card" data-category="web">
+                    <img src="src/assets/images/portfolio.png" class="card-img-top" alt="Portfolio Website Header">
+                    <div class="card-content">
+                        <h6 class="card-name">Portfolio Website</h6>
+                        <p class="card-desc">This portfolio website.</p>
+                        <div class="badge-group">
+                            <span class="skill-badge cat-web">Web Development</span>
+                            <span class="skill-badge cat-web">HTML</span>
+                            <span class="skill-badge cat-web">CSS</span>
+                            <span class="skill-badge cat-web">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="panel dark" id="skills">
+        <div class="content">
+            <p class="section-eyebrow">Portfolio</p>
+            <h2 class="section-heading">Technical Skills</h2>
+        </div>
+
+        <div class="skills-grid">
+            <div class="skill-card skill-card-dark">
+                    <h6 class="skill-card-title">Languages</h6>
+                    <div class="badge-group">
+                        <span class="skill-badge language">Java</span>
+                        <span class="skill-badge language">Python</span>
+                        <span class="skill-badge language">SQL</span>
+                        <span class="skill-badge language">Verilog</span>
+                        <span class="skill-badge language">MIPS Assembly</span>
+                    </div>
+            </div>
+
+            <div class="skill-card skill-card-dark">
+                    <h6 class="skill-card-title">Web Development</h6>
+                    <div class="badge-group">
+                        <span class="skill-badge web-dev">HTML</span>
+                        <span class="skill-badge web-dev">CSS</span>
+                        <span class="skill-badge web-dev">JavaScript</span>
+                        <span class="skill-badge web-dev">React.js</span>
+                    </div>
+            </div>
+
+            <div class="skill-card skill-card-dark">
+                    <h6 class="skill-card-title">Tools</h6>
+                    <div class="badge-group">
+                        <span class="skill-badge tools">VS Code</span>
+                        <span class="skill-badge tools">MySQL</span>
+                        <span class="skill-badge tools">IntelliJ</span>
+                        <span class="skill-badge tools">WireShark</span>
+                        <span class="skill-badge tools">Figma</span>
+                        <span class="skill-badge tools">GitHub</span>
+                        <span class="skill-badge tools">Google Colab</span>
+                        <span class="skill-badge tools">CircuitSim</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="panel light" id="contact-panel">
+        <section id="contact">
+            <div class="contact-wrapper">
+
+                <div class="contact-left">
+                    <p class="section-eyebrow">Get in touch</p>
+                    <h2 class="section-heading">Contact</h2>
+                    <p class="contact-sub">Feel free to reach out for internship opportunities or collaborations.</p>
+
+                    <div class="social-links">
+                        <a href="https://github.com/ima1001" target="_blank" rel="noopener" class="social-btn">
+                            <img src="src/assets/images/github.svg" class="social-icon" alt="GitHub"> GitHub
+                        </a>
+                        <a href="https://www.linkedin.com/in/fatemah-al-jawad" target="_blank" rel="noopener" class="social-btn">
+                            <img src="src/assets/images/linkedin.webp" class="social-icon" alt="LinkedIn"> LinkedIn
+                        </a>
+                    </div>
+                </div>
+
+                <form class="card simple-form">
+                    <div class="form-group">
+                        <label for="username">Username</label>
+                        <input type="text" id="username" placeholder="Enter username">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="text" id="email" placeholder="Enter email">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" placeholder="Enter message" rows="5"></textarea>
+                    </div>
+                    <button type="submit" style="width: 250px;">Submit</button>
+                    <span class="form-message hidden" id="form-message"></span>
+                </form>
+
+            </div>
+        </section>
+    </section>
+
+    <footer id="weather-footer">
+        <div id="weather-widget">
+            <div id="weather-loading">Fetching weather...</div>
+            <div id="weather-content" class="hidden">
+                <div id="weather-left">
+                    <span id="weather-emoji">🌤</span>
+                    <div>
+                        <p id="weather-city">Dhahran, SA</p>
+                        <p id="weather-desc">--</p>
+                    </div>
+                </div>
+                <div id="weather-right">
+                    <span id="weather-temp">--</span>
+                    <div id="weather-meta">
+                        <span id="weather-humidity">💧 --%</span>
+                        <span id="weather-wind">💨 -- km/h</span>
+                    </div>
+                </div>
+            </div>
+            <div id="weather-error" class="hidden">⚠️ Could not load weather data.</div>
+        </div>
+    </footer>
+
+</body>
+</html>
+
