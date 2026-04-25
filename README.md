@@ -75,6 +75,8 @@ id-name-assignment3/
 ├── docs/
 │   ├── ai-usage-report.md
 │   └── technical-documentation.md
+├── presentation/
+│   └── demo-video.mp4
 ├── .gitignore
 └── README.md
 ```
